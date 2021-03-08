@@ -1,0 +1,178 @@
+#bad{
+color: brown;
+}
+#greenTablet1{
+  top:127px;
+  left:58px;	
+  }
+  #greenTablet2{
+    top:127px;
+    left:124px;	
+  }
+  #greenTablet3{
+    top:60px;
+    left:58px;	
+  }
+  #greenTablet4{
+    top:60px;
+    left:124px;	
+  }
+#yellowTablet1{
+  top:127px;
+  left:355px;	
+  }
+  #yellowTablet2{
+    top:127px;
+    left:421px;	
+  }
+  #yellowTablet3{
+    top:60px;
+    left:355px;	
+  }
+  
+   #yellowTablet4{
+    top:60px;
+    left:421px;	
+   }
+  
+   #redTablet1{
+    top:423px;
+    left:58px;	
+  }
+   #redTablet2{
+    top:423px;
+    left:124px;	
+  }
+    #redTablet3{
+    top:358px;
+    left:58px;	
+  }
+    #redTablet4{
+      top:358px;
+      left:124px;	
+  }
+
+  #blueTablet1{
+  top:423px;
+  left:355px;	
+  }                 
+  #blueTablet2{
+    top:423px;
+    left:421px;	
+}         
+   #blueTablet3{
+    top:358px;
+   left:355px;	
+  }                    
+    #blueTablet4{
+      top:358px;
+      left:421px;	
+}
+.tablet{
+  width:20px;
+  height:20px;
+  border-radius:20px;
+  border-style: solid;
+  border-color: black;
+  position: absolute;;
+}
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+a{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+h1:hover {
+  color: #f44336;
+}
+.container-1{
+  text-align: center;
+  padding-top: 200px;
+
+}
+footer{
+  text-align: center;
+  padding-top: 200px;
+}
+img{
+  width: 100px;
+  height: 80px;
+  margin-right: 40px;
+}
+.flex-container{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  }
+
+  #header{
+    margin-bottom: 200px;
+  }
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    width: 400px;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.button1 {
+    background-color: #4CAF50;
+    } 
+
+.button2 {
+    background-color: #008CBA;
+    } 
+    
+.button1:hover {
+  background-color: #63e067;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #5ec4e6;
+  color: white;
+}
+
+#dice{
+ background-image:url("../Images/dice1.gif");
+ background-size:contain; 
+ width:150px;height:150px; 
+ background-repeat: no-repeat;
+ margin-left: 20%;
+ margin-bottom: 10%;
+}
+
+body{
+  background-image: url('../Images/ludo-kingcms.cms');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

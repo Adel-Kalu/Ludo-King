@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo King</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+<style>
+  .container{
+  width: 500px;
+  height: 500px;
+ background-image: url("Images/ludo.webp");
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+}
+</style>
+
+</head>
+<body>
+
+    <script>  
+        $(function(){ 
+          $("#header").load("header.html");  
+        }); 
+    </script>  
+   
+    <div id="header"></div> 
+     
+
+    <div class="container">
+
+      <div class="tablet  red"  id="redTablet1" onclick="randomMove('red',1)" style="top:423px; left:58px;"></div>
+      <div class="tablet  red"  id="redTablet2" onclick="randomMove('red',2)" style="top:423px; left:124px;"></div>
+      <div class="tablet  red"  id="redTablet3" onclick="randomMove('red',3)" style="top:358px; left:58px;"></div>
+      <div class="tablet  red"  id="redTablet4" onclick="randomMove('red',4)" style="top:358px; left:124px;"></div>
+  
+      <div class="tablet yellow" id="yellowTablet1" onclick="randomMove('yellow',1)" style="top:127px; left:355px;"></div>
+      <div class="tablet yellow" id="yellowTablet2" onclick="randomMove('yellow',2)" style="top:127px; left:421px;"></div>
+      <div class="tablet yellow" id="yellowTablet3" onclick="randomMove('yellow',3)" style="top:60px; left:355px;"></div>
+      <div class="tablet yellow" id="yellowTablet4" onclick="randomMove('yellow',4)" style="top:60px; left:421px;"></div>
+  
+      <div class="tablet green" id="greenTablet1" onclick="randomMove('green',1)" style="top:127px; left:58px;"></div>
+      <div class="tablet green" id="greenTablet2" onclick="randomMove('green',2)" style="top:127px; left:124px;"></div>
+      <div class="tablet green" id="greenTablet3" onclick="randomMove('green',3)" style="top:60px; left:58px;"></div>
+      <div class="tablet green" id="greenTablet4" onclick="randomMove('green',4)" style="top:60px; left:124px;"></div>
+  
+      <div class="tablet blue" id="blueTablet1" onclick="randomMove('blue',1)" style="top:423px; left:355px;"></div>
+      <div class="tablet blue" id="blueTablet2" onclick="randomMove('blue',2)" style="top:423px; left:421px;"></div>
+      <div class="tablet blue" id="blueTablet3" onclick="randomMove('blue',3)" style="top:358px; left:355px;"></div>
+      <div class="tablet blue" id="blueTablet4" onclick="randomMove('blue',4)" style="top:358px; left:421px;"></div>
+
+    </div>  
+
+  <div class="flex-container">
+     <div id="dice">
+       <audio id="audio">
+         <source src="audio/roll.wav" type="audio/mpeg">
+       </audio>
+
+       <audio id="audio-roll">
+        <source src="audio/Rolling-Dice.mp3" type="audio/mpeg">
+      </audio>
+
+      <audio id="audio-winner">
+        <source src="audio/winner.mp3" type="audio/mpeg">
+      </audio>
+
+      <audio id="audio-kill">
+        <source src="audio/kill.mp3" type="audio/mpeg">
+      </audio>
+
+     </div>
+
+    <div><h1 id="player" style="color: red;"></h1><h4 id="bad"></h4></div>
+
+  </div>
+ 
+    <script src="JS/players_4.js"></script>
+    
+</body>
+</html>
